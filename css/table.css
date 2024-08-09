@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    text-transform: capitalize;
+}
+
+body{
+    background-color: #111f2f ;
+    color: white;
+    
+    
+   
+}
+
+
+nav{
+    background-color: rgb(0, 0, 27);
+   
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+    /*lw 3ayez tsabbet el navbar for w yeb2a 3la toul bayen */
+    position: fixed;
+    top: 0;
+    background-color: rgb(0, 0, 27);
+    width: -webkit-fill-available;
+    z-index: 1;
+}
+
+.imgnav{
+    width: 120px;
+    margin-left: 30px;
+    margin-top: 15px;
+    border-radius: 100%;
+}
+
+.anav{
+    margin-top: 70px;
+    margin-right: 40px;
+    word-spacing: 20px;
+}
+
+.aa{
+    text-decoration: none;
+    color: wheat;
+    padding: 15px 5px;
+    margin-top: 10px;
+    font-size: 30px;
+
+}
+
+.aa:hover{
+    color: red;
+    
+}
+
+.selected{ /*/////////////////////*/
+    color: wheat;
+    opacity: 0.5;
+  }
+
+.selected:hover{
+    color: wheat;
+    opacity: 1;
+    
+}
+
+.clear{
+    visibility: hidden;
+    background-color: antiquewhite;
+    height: 70px;
+    margin-top: 120px;
+}
+
+
+.timetable{
+    border-radius: 10px;
+    background-color: #033a3b81;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+h1{
+    background-color: rgb(0, 0, 27);
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+
+.image1{
+    width: 60px;
+}
+
+.round1 , .round2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.match1 , .match2 , .match3 , .match4 , .match5 , .match6{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 30px;
+    align-items: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    
+}
+
+.match1:hover{
+    background-color: #033a3b;
+}
+.match2:hover{
+    background-color: #033a3b;
+}
+.match3:hover{
+    background-color: #033a3b;
+}
+.match4:hover{
+    background-color: #033a3b;
+}
+.match5:hover{
+    background-color: #033a3b;
+}
+.match6:hover{
+    background-color: #033a3b;
+}
+
+
+
+
+.match1{
+    margin-top: 10px;
+}
+
+
+
+.team1{
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.team2{
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+
+.leg2{
+    border-radius: 0;
+}
+
+
+footer{
+    background-color: white;
+    text-align: center;
+    margin-top: 50px;
+    color : black ;
+}
+
+
+
+i:hover{
+    opacity: 0.6;
+}
+
+hr{
+    width: 70%;
+}
+
+
+
+
+@media (max-width: 950px) {
+
+    body{
+        background-color: #111f2f ;
+        color: white;
+        margin: 0;
+        text-transform: capitalize;
+        height: 100vh;
+    }
+    
+    
+    nav{
+        background-color: rgb(0, 0, 27);
+        height: 170px;
+    }
+    
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-grow: 1;
+    }
+    
+    .imgnav{
+        width: 110px;
+        margin-left: 0;
+        margin-top: 0;
+       
+        
+    
+    }
+    
+    .anav{
+        margin-top: 0;
+        margin-right: 0px;
+        word-spacing: 10px;
+    }
+       
+       
+    
+    
+    
+    .aa{
+        text-decoration: none;
+        color: wheat;
+        padding: 15px 5px;
+        margin-top: 10px;
+        font-size: 20px;
+        
+        
+    
+    }
+
+
+    .clear{
+        visibility: hidden;
+        background-color: antiquewhite;
+        height: 40px;
+        margin-top: 0;
+    }
+
+    .timetable{
+        border-radius: 10px;
+        background-color: #033a3b81;
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: auto;
+    }
+
+
+
+
+    .match1 , .match2 , .match3 , .match4 , .match5 , .match6{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        font-size: 23px;
+        align-items: center;
+        padding: 10px 0;
+        border-radius: 10px;
+        
+    }
+
+    h1{
+        font-size: 26px;
+    }
+
+    .image1{
+        width: 45px;
+    }
+
+    .team1{
+        margin-left: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+    }
+    
+    .team2{
+        margin-right: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 13px;
+    }
+
+   
+
+}
+
+
+
+@media (max-width: 400px) 
+{
+    .aa{
+        text-decoration: none;
+        color: wheat;
+        padding: 12px 3px;
+        margin-top: 8px;
+        font-size: 12px;
+        
+    }
+
+    
+    
+}
+
+
+
+
+
+
+
+@media (max-width: 357px) 
+{
+    .aa{
+        text-decoration: none;
+        color: wheat;
+        padding: 15px 5px;
+        margin-top: 7px;
+        font-size: 11px;
+        
+        
+    
+    }
+
+}
