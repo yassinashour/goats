@@ -97,7 +97,7 @@ body{
 
 }
 
-.player1 , .player2 , .player3{
+.player1 , .player2 , .player3 , .player4 , .player5 , .player6{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -149,6 +149,7 @@ h2{
 .teamimg{
     width: 50px;
     margin-right: 60px;
+    text-align: center;
 }
 
 .player1{
@@ -162,6 +163,19 @@ h2{
 .player3{
     background-color: #042141;
 }
+
+.player4{
+    background-color: #042141;
+}
+
+.player5{
+    background-color: #042141;
+}
+
+.player6{
+    background-color: #042141;
+}
+
 
 
 .player1:hover{
@@ -178,6 +192,22 @@ h2{
     opacity: 0.8;
     margin: 1px;
 }
+
+.player4:hover{
+    opacity: 0.8;
+    margin: 1px;
+}
+
+.player5:hover{
+    opacity: 0.8;
+    margin: 1px;
+}
+
+.player6:hover{
+    opacity: 0.8;
+    margin: 1px;
+}
+
 
 
 footer{
@@ -265,7 +295,7 @@ i:hover{
         color: wheat;
         padding: 12px 3px;
         margin-top: 8px;
-        font-size: 14px;
+        font-size: 12px;
         
     }
 
