@@ -204,6 +204,7 @@ i:hover{
         align-items: center;
         gap: 20px;
         flex-grow: 1;
+        z-index: 2;
     }
     
     .imgnav{
@@ -236,8 +237,12 @@ i:hover{
     
     }
 
+    .budget{
+        margin-top: 170px;
+    }
+
     .table1{
-        margin-top: 90px;
+        margin-top: 140px;
     }
 
     .table1 th{
