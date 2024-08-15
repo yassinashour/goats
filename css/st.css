@@ -118,9 +118,6 @@ body{
     
 }
 
-.table1 tbody tr td:hover{
-    padding: 1px;
-}
 
 .table1 tbody tr{
     border-bottom: 1px solid gray;
@@ -130,7 +127,7 @@ body{
 }
 
 .table1 tbody tr:hover{
-    opacity: 0.8;
+    opacity: 0.6;
 
 }
 
