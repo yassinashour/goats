@@ -1,1 +1,1 @@
-window.alert(هو ياعم انتو بتوعي')
+window.alert(كسم السيسي)
