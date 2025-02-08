@@ -6,7 +6,7 @@
 body{
     background-color: #111f2f ;
     color: white;
-    
+    width: 100vw;
    
 }
 
@@ -52,7 +52,7 @@ nav{
 }
 
 .aa:hover{
-    color: red;
+    color: rgba(245, 222, 179, 0.503);
     
 }
 
@@ -166,6 +166,7 @@ footer{
     text-align: center;
     margin-top: 50px;
     color : black ;
+    width: 100vw;
     
 }
 
@@ -176,8 +177,51 @@ i:hover{
     opacity: 0.6;
 }
 
+body.dark-mode {
+    background-color: silver;
+    color: rgba(4, 22, 18, 0.916);
+}
+
+body.dark-mode .navbar {
+    background-color: rgba(128, 127, 127, 0.486);
+}
+
+body.dark-mode .plank {
+    background-color: silver;
+}
 
 
+body.dark-mode .navbar .aa {
+    color: rgb(5, 4, 13);
+}
+
+body.dark-mode .navbar .aa:hover {
+    color: rgba(9, 48, 39, 0.532);
+}
+
+.light1{
+    background-color: rgba(0, 255, 255, 0);
+    color: wheat;
+    border: 0;
+}
+
+body.dark-mode .light1{
+    background-color: rgba(111, 111, 111, 0);
+    color: black;
+}
+
+body.dark-mode .budget{
+    background-color: rgba(128, 127, 127, 0.486);
+    color: black;
+}
+
+body.dark-mode .table1 tbody tr:nth-of-type(even) {
+    background-color:  #6e6e6f;
+}
+
+body.dark-mode .table1 thead tr th{
+    color: silver;
+}
 
 @media (max-width: 950px) {
 
